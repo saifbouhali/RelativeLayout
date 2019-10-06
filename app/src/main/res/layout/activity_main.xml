@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/natalie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lylame"
+        android:text="@string/natalie"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/kunalben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/natalie"
+        android:text="@string/kunalben"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/kagure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/kunalben"
+        android:text="@string/kagure"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lylame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/lylame"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/omoju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/anyjennie"
+        android:layout_alignParentEnd="true"
+        android:text="@string/omoju"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/anyjennie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/anyjennie"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/amy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/omoju"
+        android:layout_alignParentEnd="true"
+        android:text="@string/amy"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
